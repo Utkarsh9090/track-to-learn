@@ -1,0 +1,133 @@
+@media only screen and (max-width: 455px){
+    
+    body {
+        margin: 0;
+       
+}
+    
+.box{
+    flex-direction: column;
+}
+}
+
+
+@media only screen and (max-width: 850px){
+    
+    body {
+        margin: 0;
+       
+}
+    
+.box{
+    flex-direction: column;
+}
+}
+
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+    width: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    height: 70px;
+    margin-bottom: 30px ;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: black;
+}
+
+.navbar .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 0px;    
+   margin-bottom: 0px;
+}
+
+.thumbnail{
+    width: 100%; 
+    margin-bottom: 6px;
+}
+
+.thumbnail:hover{
+    box-shadow: 2px 4px 8px solid rgb(80, 79, 79);
+}
+
+.course{
+    color: black;
+    font-size: 30px;
+    font-weight: 500px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+
+}
+
+
+
+.box{
+display: inline-block;
+    display: flex;
+    gap: 1.9em;
+    padding: 0% 2%;
+    
+}
+
+
+.video-title{
+ 
+ font-size: 14px;
+ margin-top:15px  ;
+ line-height: 30px;
+ margin-bottom: 20px;
+ margin-left: 40px;
+ font-size: 25px;
+ font-weight: 600;
+
+}
+
+.video-info{
+   font-weight: 350;
+   margin-top: 5px;
+}
+.thumbnail-row{
+    margin-bottom: 12px;
+    padding: 15px;
+}
+
+.video-pre{
+    width: 22rem;
+}
+
+

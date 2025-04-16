@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media only screen and (max-width: 455px){
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+}
+    
+.login-box, .navbar, .hero1 ,.hero2 ,.login-box:hover , .login-box input, .login-box button , .login-box button , .login-box button:hover {
+    flex-direction: column;
+}
+#username , #password {
+    flex-direction: column;
+}
+
+}
+
+
+body {
+    background: #fffff9;
+    color: #333;
+    text-align: center;
+    font-family: 'roboto';
+    width: 100%;
+
+}
+.navbar {
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.hero {
+    padding: 3rem;
+    background: url('farm-background.jpg') no-repeat center center/cover;
+    color: rgb(1, 1, 1);
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.hero1{
+    margin-bottom: 15px;
+}
+.hero2{
+    margin-top: 10px;
+}
+.login-box {
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgb(128, 128, 128);
+    border: 3px;
+    transition: 0.10s;
+}
+.login-box:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.login-box input, .login-box button {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #2b0e0e;
+    border-radius: 10px;
+}
+.login-box button {
+    background: #070707;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.35s;
+    border-radius: 12px;
+}
+.login-box button:hover {
+    background: #ebebeb;
+    box-shadow: 3px 4px 5px gray;
+    color: black;
+}
+#username{
+    border-radius: 12px;
+}
+
+
+#password{
+    border-radius: 12px;
+}
